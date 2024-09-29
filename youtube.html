@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Youtube.com Clone
+        </title>
+        <link rel="icon" href="./icons/logo.png">
+        <link rel="stylesheet" href="./styles/header.css">
+        <link rel="stylesheet" href="./styles/general.css">
+        <link rel="stylesheet" href="./styles/sidebar.css">
+        <link rel="stylesheet" href="./styles/video.css">
+    </head>
+    <body>
+        <header class="header">
+            <div class="left-section">
+                <img class="hamburger-logo" src="icons/hamburger-menu.svg">
+                <img class="youtube-logo" src="icons/youtube-logo.svg">
+            </div>
+            <div class="middle-section">
+                <input class="search-bar" type="text" placeholder="Search">
+                <button class="search-button">
+                    <img class="search-icon" src="icons/search.svg">
+                    <div class="tooltip">Search</div>
+                </button>
+                <button class="voice-search-button">
+                    <img class="voice-search-icon" src="icons/voice-search-icon.svg">
+                    <div class="tooltip">Search with your voice</div>
+                </button>
+            </div>
+            <div class="right-section">
+                <div class="upload-icon-container">
+                    <img class="upload-icon" src="icons/upload.svg">
+                    <div class="tooltip">Create</div>
+                </div>
+                <div class="youtube-apps-icon-container">
+                    <img class="youtube-apps-icon" src="icons/youtube-apps.svg">
+                    <div class="tooltip">Youtube apps</div>
+                </div>
+                <div class="notifications-icon-container">
+                    <img class="notifications-icon" src="icons/notifications.svg">
+                    <div class="notifications-count">3</div>
+                    <div class="tooltip">Notifications</div>
+                </div>
+                <img class="current-user-picture-icon" src="./channel-pictures/Ankit.jpg">
+            </div>
+        </header>
+        <nav class="sidebar">
+            <div class="sidebar-link">
+                <img src="icons/home.svg">
+                <div>Home</div>
+            </div>
+            <div class="sidebar-link">
+                <img src="icons/explore.svg">
+                <div>Explore</div>
+            </div>
+            <div class="sidebar-link">
+                <img src="icons/subscriptions.svg">
+                <div>Subscriptions</div>
+            </div>
+            <div class="sidebar-link">
+                <img src="icons/originals.svg">
+                <div>Originals</div>
+            </div>
+            <div class="sidebar-link">
+                <img src="icons/youtube-music.svg">
+                <div>Youtube Music</div>
+            </div>
+            <div class="sidebar-link">
+                <img src="icons/library.svg">
+                <div>Library</div>
+            </div>
+        </nav>
+        <main>
+            <section class="video-grid">
+                <div class="video-preview">
+                    <div class="thumbnail-row">
+                        <a href="#" target="_blank" class="video-title-link">
+                            <img class="thumbnail" src="thumbnails/thumbnail-1.webp">
+                        </a>
+                        <div class="video-time">04:40</div>
+                    </div>
+                    <div class="video-info-grid">
+                        <div class="channel-picture">   
+                            <div class="profile-picture-container">
+                                <a href="#" target="_blank" class="channel-link">
+                                    <img class="profile-picture" src="./channel-pictures/channel-1.jpg">
+                                </a>
+                                <div class="channel-tooltip">
+                                    <img class="channel-tooltip-picture" src="channel-pictures/channel-1.jpg">
+                                    <div class="channel-info-tooltip">
+                                        <p class="channel-tooltip-name">APNA PUNJAB</p>
+                                        <p class="channel-tooltip-stats">16.6M subscribers</p>
+                                    </div>
+                                </div>
+                            </div>                                                                                  
+                        </div>
+                        <div class="video-info">
+                            <a href="#" target="_blank" class="video-title-link">
+                                <p class="video-title">"3 Peg Sharry Mann" (Full Video) | Mishta...</p>
+                            </a>
+                            <div class="tooltip-hover">
+                                <a href="#" target="_blank" class="channel-link">
+                                    <p class="video-author">Apna Punjab</p>
+                                </a>                            
+                                <p class="video-stats">839M views &#183; 7 years ago</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="video-preview">
+                    <div class="thumbnail-row">
+                        <a href="#" target="_blank" class="video-title-link">
+                            <img class="thumbnail" src="thumbnails/thumbnail-2.webp">
+                        </a>                        
+                        <div class="video-time">05:39</div>
+                    </div>
+                    <div class="video-info-grid">
+                        <div class="channel-picture">
+                            <div class="profile-picture-container">
+                                <a href="#" target="_blank" class="channel-link">
+                                    <img class="profile-picture" src="channel-pictures/channel-2.jpg">
+                                </a>
+                                <div class="channel-tooltip">
+                                    <img class="channel-tooltip-picture" src="channel-pictures/channel-2.jpg">
+                                    <div class="channel-info-tooltip">
+                                        <p class="channel-tooltip-name">Best of Kumar Sanu</p>
+                                        <p class="channel-tooltip-stats">34.3M subscribers</p>
+                                    </div>
+                                </div>         
+                            </div>
+                        </div>
+                        <div class="video-info">
+                            <a href="#" target="_blank" class="video-title-link">
+                                <p class="video-title">Zara Tasveer Se Tu Nikal Ke Saamne Aa..</p>
+                            </a>
+                            <a href="https://www.youtube.com/c/markiplier" target="_blank" class="channel-link">
+                                <p class="video-author">Best of Kumar Sanu</p>
+                            </a>                            
+                            <p class="video-stats">89M views &#183; 1 years ago</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="video-preview">
+                    <div class="thumbnail-row">
+                        <a href="#" target="_blank" class="video-title-link">
+                            <img class="thumbnail" src="thumbnails/thumbnail-3.webp">
+                        </a>                        
+                        <div class="video-time">9:13</div>
+                    </div>
+                    <div class="video-info-grid">
+                        <div class="channel-picture">
+                            <div class="profile-picture-container">
+                                <a href="#" target="_blank" class="channel-link">
+                                    <img class="profile-picture" src="channel-pictures/channel-3.jpg">
+                                </a>
+                                <div class="channel-tooltip">
+                                    <img class="channel-tooltip-picture" src="channel-pictures/channel-3.jpg">
+                                    <div class="channel-info-tooltip">
+                                        <p class="channel-tooltip-name">T Series</p>
+                                        <p class="channel-tooltip-stats">33.2M subscribers</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="video-info">
+                            <a href="#" target="_blank" class="video-title-link">
+                                <p class="video-title">Ladki Badi Anjani Hai - Full 4K (Love Song...</p>
+                            </a>
+                            <a href="https://www.youtube.com/user/SSSniperWolf" target="_blank" class="channel-link">
+                                <p class="video-author">T Series</p>
+                            </a>                            
+                            <p class="video-stats">6.4M views &#183; 6 months ago</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="video-preview">
+                    <div class="thumbnail-row">
+                        <a href="#" target="_blank" class="video-title-link">
+                            <img class="thumbnail" src="thumbnails/thumbnail-4.webp">
+                        </a>                        
+                        <div class="video-time">04:20</div>
+                    </div>
+                    <div class="video-info-grid">
+                        <div class="channel-picture">
+                            <div class="profile-picture-container">
+                                <a href="#" target="_blank" class="channel-link">
+                                    <img class="profile-picture" src="channel-pictures/channel-4.jpg">
+                                </a>
+                                <div class="channel-tooltip">
+                                    <img class="channel-tooltip-picture" src="channel-pictures/channel-4.jpg">
+                                    <div class="channel-info-tooltip">
+                                        <p class="channel-tooltip-name">Refined Music</p>
+                                        <p class="channel-tooltip-stats">13.3M subscribers</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="video-info">
+                            <a href="#" target="_blank" class="video-title-link">
+                                <p class="video-title">Vaaste Song: Dhvani Bhanushali, Tanishk...</p>
+                            </a>
+                            <a href="https://www.youtube.com/c/veritasium" target="_blank" class="channel-link">
+                                <p class="video-author">Refined Music</p>
+                            </a>                            
+                            <p class="video-stats">20M views &#183; 2 months ago</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="video-preview">
+                    <div class="thumbnail-row">
+                        <a href="#" target="_blank" class="video-title-link">
+                            <img class="thumbnail" src="thumbnails/thumbnail-5.webp">
+                        </a>                        
+                        <div class="video-time">03:15</div>
+                    </div>
+                    <div class="video-info-grid">
+                        <div class="channel-picture">
+                            <div class="profile-picture-container">
+                                <a href="#" target="_blank" class="channel-link">
+                                    <img class="profile-picture" src="channel-pictures/channel-5.jpg">
+                                </a>
+                                <div class="channel-tooltip">
+                                    <img class="channel-tooltip-picture" src="channel-pictures/channel-5.jpg">
+                                    <div class="channel-info-tooltip">
+                                        <p class="channel-tooltip-name">Badshah</p>
+                                        <p class="channel-tooltip-stats">1.89M subscribers</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="video-info">
+                            <a href="#" target="_blank" class="video-title-link">
+                                <p class="video-title">Badshah - Gone Girl | Official song...</p>
+                            </a>
+                            <a href="#" target="_blank" class="channel-link">
+                                <p class="video-author">Badshah</p>
+                            </a>                            
+                            <p class="video-stats">132M views &#183; 1 years ago</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="video-preview">
+                    <div class="thumbnail-row">
+                        <a href="#" target="_blank" class="video-title-link">
+                            <img class="thumbnail" src="thumbnails/thumbnail-6.webp">
+                        </a>                        
+                        <div class="video-time">03:56</div>
+                    </div>
+                    <div class="video-info-grid">
+                        <div class="channel-picture">
+                            <div class="profile-picture-container">
+                                <a href="#" target="_blank" class="channel-link">
+                                    <img class="profile-picture" src="channel-pictures/channel-6.jpg">
+                                </a>
+                                <div class="channel-tooltip">
+                                    <img class="channel-tooltip-picture" src="channel-pictures/channel-6.jpg">
+                                    <div class="channel-info-tooltip">
+                                        <p class="channel-tooltip-name">DM - Desi Melodies</p>
+                                        <p class="channel-tooltip-stats">129M subscribers</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="video-info">
+                            <a href="#" target="_blank" class="video-title-link">
+                                <p class="video-title">Paon Ki Jutti - Jyoti Nooran | Isha Malviya..</p>
+                            </a>
+                            <a href="#" target="_blank" class="channel-link">
+                                <p class="video-author">DM - Desi Melodies</p>
+                            </a>                            
+                            <p class="video-stats">119M views &#183; 3 months ago</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="video-preview">
+                    <div class="thumbnail-row">
+                        <a href="#" target="_blank" class="video-title-link">
+                            <img class="thumbnail" src="thumbnails/thumbnail-7.webp">
+                        </a>                        
+                        <div class="video-time">03:30</div>
+                    </div>
+                    <div class="video-info-grid">
+                        <div class="channel-picture">
+                            <div class="profile-picture-container">
+                                <a href="#" target="_blank" class="channel-link">
+                                    <img class="profile-picture" src="channel-pictures/channel-7.jpg">
+                                </a>
+                                <div class="channel-tooltip">
+                                    <img class="channel-tooltip-picture" src="channel-pictures/channel-7.jpg">
+                                    <div class="channel-info-tooltip">
+                                        <p class="channel-tooltip-name">T - Series</p>
+                                        <p class="channel-tooltip-stats">6.56M subscribers</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="video-info">
+                            <a href="#" target="_blank" class="video-title-link">
+                                <p class="video-title">MILLIONAIRE SONG (Full Video):....</p>
+                            </a>
+                            <a href="#" target="_blank" class="channel-link">
+                                <p class="video-author">T - Series</p>
+                            </a>                            
+                            <p class="video-stats">26M views &#183; 5 days ago</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="video-preview">
+                    <div class="thumbnail-row">
+                        <a href="#" target="_blank" class="video-title-link">
+                            <img class="thumbnail" src="thumbnails/thumbnail-8.webp">
+                        </a>                        
+                        <div class="video-time">03:42</div>
+                    </div>
+                    <div class="video-info-grid">
+                        <div class="channel-picture">
+                            <div class="profile-picture-container">
+                                <a href="#" target="_blank" class="channel-link">
+                                    <img class="profile-picture" src="channel-pictures/channel-8.jpg">
+                                </a>
+                                <div class="channel-tooltip">
+                                    <img class="channel-tooltip-picture" src="channel-pictures/channel-8.jpg">
+                                    <div class="channel-info-tooltip">
+                                        <p class="channel-tooltip-name">Karan Aujla</p>
+                                        <p class="channel-tooltip-stats">798K subscribers</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="video-info">
+                            <a href="#" target="_blank" class="video-title-link">
+                                <p class="video-title">Tauba Tauba | Bad Newz | Vicky Kaush...</p>
+                            </a>
+                            <a href="#" target="_blank" class="channel-link">
+                                <p class="video-author">Karan Aujla</p>
+                            </a>
+                            <p class="video-stats">224M views &#183; 1 months ago</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="video-preview">
+                    <div class="thumbnail-row">
+                        <a href="#" target="_blank" class="video-title-link">
+                            <img class="thumbnail" src="thumbnails/thumbnail-9.webp">
+                        </a>                        
+                        <div class="video-time">03:33</div>
+                    </div>
+                    <div class="video-info-grid">
+                        <div class="channel-picture">
+                            <div class="profile-picture-container">
+                                <a href="#" target="_blank" class="channel-link">
+                                    <img class="profile-picture" src="channel-pictures/channel-9.jpg">
+                                </a>
+                                <div class="channel-tooltip">
+                                    <img class="channel-tooltip-picture" src="channel-pictures/channel-9.jpg">
+                                    <div class="channel-info-tooltip">
+                                        <p class="channel-tooltip-name">Badshah</p>
+                                        <p class="channel-tooltip-stats">7.56M subscribers</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="video-info">
+                            <a href="#" target="_blank" class="video-title-link">
+                                <p class="video-title">Badshah X Arijit Singh - Soulmate(Live....</p>
+                            </a>
+                            <a href="#" target="_blank" class="channel-link">
+                                <p class="video-author">Badshah</p>
+                            </a>
+                            <p class="video-stats">56M views &#183; 4 months ago</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="video-preview">
+                    <div class="thumbnail-row">
+                        <a href="#" target="_blank" class="video-title-link">
+                            <img class="thumbnail" src="thumbnails/thumbnail-10.webp">
+                        </a>                        
+                        <div class="video-time">03:35</div>
+                    </div>
+                    <div class="video-info-grid">
+                        <div class="channel-picture">
+                            <div class="profile-picture-container">
+                                <a href="#" target="_blank" class="channel-link">
+                                    <img class="profile-picture" src="channel-pictures/channel-10.jpg">
+                                </a>
+                                <div class="channel-tooltip">
+                                    <img class="channel-tooltip-picture" src="channel-pictures/channel-10.jpg">
+                                    <div class="channel-info-tooltip">
+                                        <p class="channel-tooltip-name">Badshah</p>
+                                        <p class="channel-tooltip-stats">7.36M subscribers</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="video-info">
+                            <a href="#" target="_blank" class="video-title-link">
+                                <p class="video-title">O Sajna (Official Video) - Badshah X...</p>
+                            </a>
+                            <a href="#" target="_blank" class="channel-link">
+                                <p class="video-author">Badshah</p>
+                            </a>                            
+                            <p class="video-stats">43M views &#183; 4 month ago</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="video-preview">
+                    <div class="thumbnail-row">
+                        <a href="#" target="_blank" class="video-title-link">
+                            <img class="thumbnail" src="thumbnails/thumbnail-11.webp">
+                        </a>                    
+                        <div class="video-time">03:03</div>
+                    </div>
+                    <div class="video-info-grid">
+                        <div class="channel-picture">
+                            <div class="profile-picture-container">
+                                <a href="#" target="_blank" class="channel-link">
+                                    <img class="profile-picture" src="channel-pictures/channel-11.jpg">
+                                </a>
+                                <div class="channel-tooltip">
+                                    <img class="channel-tooltip-picture" src="channel-pictures/channel-11.jpg">
+                                    <div class="channel-info-tooltip">
+                                        <p class="channel-tooltip-name">Saregama Music</p>
+                                        <p class="channel-tooltip-stats">279K subscribers</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="video-info">
+                            <a href="#" target="_blank" class="video-title-link">
+                                <p class="video-title">Aaj Ki Raat | Stree 2 | Tamanna Bhatia |...</p>
+                            </a>
+                            <a href="#" target="_blank" class="channel-link">
+                                <p class="video-author">Saregama Music</p>
+                            </a>                            
+                            <p class="video-stats">178M views &#183; 1 month ago</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="video-preview">
+                    <div class="thumbnail-row">
+                        <a href="#" target="_blank" class="video-title-link">
+                            <img class="thumbnail" src="thumbnails/thumbnail-12.webp">
+                        </a>                        
+                        <div class="video-time">01:18:42</div>
+                    </div>
+                    <div class="video-info-grid">
+                        <div class="channel-picture">
+                            <div class="profile-picture-container">
+                                <a href="#" target="_blank" class="channel-link">
+                                    <img class="profile-picture" src="channel-pictures/channel-12.jpg">
+                                </a>
+                                <div class="channel-tooltip">
+                                    <img class="channel-tooltip-picture" src="channel-pictures/channel-12.jpg">
+                                    <div class="channel-info-tooltip">
+                                        <p class="channel-tooltip-name">SONY SAB</p>
+                                        <p class="channel-tooltip-stats">18.1M subscribers</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="video-info">
+                            <a href="#" target="_blank" class="video-title-link">
+                                <p class="video-title">Jethalal New Shop Opening! | PART 1.....</p>
+                            </a>                        
+                            <a href="./youtube.html" target="_blank" class="channel-link">
+                                <p class="video-author">SONY SAB</p>
+                            </a>                            
+                            <p class="video-stats">1.M views &#183; 7 days ago</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </body>
+</html>
